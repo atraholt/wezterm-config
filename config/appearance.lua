@@ -14,9 +14,9 @@ return {
 
    -- background
    background = {
-      {
-         source = { File = wezterm.GLOBAL.background },
-      },
+      --   {
+      --      source = { File = wezterm.GLOBAL.background },
+      --   },
       {
          source = { Color = colors.background },
          height = '100%',
