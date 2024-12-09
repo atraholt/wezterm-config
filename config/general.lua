@@ -1,4 +1,6 @@
 return {
+   initial_rows = 48,
+   initial_cols = 160,
    -- behaviours
    automatically_reload_config = true,
    exit_behavior = 'CloseOnCleanExit', -- if the shell program exited with a successful status
