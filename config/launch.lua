@@ -17,10 +17,10 @@ if platform.is_win then
       },
    }
 elseif platform.is_mac then
-   options.default_prog = { '/opt/homebrew/bin/zsh', '-l' }
+   options.default_prog = { '/run/current-system/sw/bin/zsh', '-l' }
    options.launch_menu = {
       { label = 'Bash', args = { 'bash', '-l' } },
-      { label = 'Zsh',  args = { '/opt/homebrew/bin/zsh', '-l' } },
+      { label = 'Zsh',  args = { '/run/current-system/sw/bin/zsh', '-l' } },
    }
 elseif platform.is_linux then
    options.default_prog = { 'zsh', '-l' }
